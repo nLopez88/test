@@ -2,7 +2,7 @@ package ver2;
 
 public class Account {
 	// Instance variable, only available inside this class.
-	private double balance;
+	private double balance; // New Comment for balance
 	private String name;
 
 	// Constructor
@@ -34,7 +34,7 @@ public class Account {
 		this.name = name;
 	}
 
-// A method that increases the balance by amount
+	// A method that increases the balance by amount
 	public void deposit(double amount) {
 		if (amount > 0) {
 			balance += amount;
